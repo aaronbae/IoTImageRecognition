@@ -18,3 +18,8 @@ Note that all of these services have a free tier, but IoT Hub has a limitations 
 2. Docker on your development machine
 3. (optional) Visual Studio Code
 4. (optional) Raspbian (OS for Raspberry Pi)
+
+# Citation
+We recognize that this project was largely a small modification project to the original EdgeBench Project. Here is a link to the original repository by Anirban Das and his team:
+- Git: https://github.com/akaanirban/edgebench
+- Paper: https://arxiv.org/pdf/1811.05948.pdf

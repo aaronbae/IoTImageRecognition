@@ -1,4 +1,7 @@
 # IoTImageRecognition
+<p align="center">
+  <img src="https://github.com/aaronbae/IoTImageRecognition/blob/master/other/results-table.PNG" width="700" title="IoT Image Classification Results">
+</p>
 Note that the project is aimed at deploying an image classification app to an edge device (in my case a raspberry pi). The computed results will send messages to the Azure IoT Hub and can be analyzed through its analytics service, Stream Analytics. Here are the steps that are involved in deploying the project:
 
 1. Build the image through Docker or Visual Studio Code Extension for Azure Iot. This should create an image

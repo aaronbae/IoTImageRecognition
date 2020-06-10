@@ -1,7 +1,4 @@
 # IoTImageRecognition
-<p align="center">
-  <img src="https://github.com/aaronbae/IoTImageRecognition/blob/master/other/results-table.PNG" width="700" title="IoT Image Classification Results">
-</p>
 Note that the project is aimed at deploying an image classification app to an edge device (in my case a raspberry pi). The computed results will send messages to the Azure IoT Hub and can be analyzed through its analytics service, Stream Analytics. Here are the steps that are involved in deploying the project:
 
 1. Build the image through Docker or Visual Studio Code Extension for Azure Iot. This should create an image
@@ -9,6 +6,11 @@ Note that the project is aimed at deploying an image classification app to an ed
 3. Deploy the image from Azure IoT Hub or through Azure Cli (your terminal)
 4. Start a BlobStorage and link it to the Stream Analytics service
 5. View the messages received by the IoT Hub on the analytics service via query
+
+Here are the results. We found that both Azure IoT and the AWS Greengrass platforms performed similarly in the image classification task:
+<p align="center">
+  <img src="https://github.com/aaronbae/IoTImageRecognition/blob/master/other/results-table.PNG" width="700" title="IoT Image Classification Results">
+</p>
 
 Note that in total you will need these services:
 1. Azure Container Registry
